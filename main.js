@@ -181,13 +181,40 @@ do {
 //	statement;
 
 
-for (let count = 0; count < 5; count++) {
-	console.log('number: ' + count);
-}
+// for (let count = 0; count < 5; count++) {
+//	console.log('number: ' + count);
+// }
 
-for (let i = 0, j = 5; i < 5; i++, j--) {
-	console.log(i + ' and ' + j);
-}
+// for (let i = 0, j = 5; i < 5; i++, j--) {
+//	console.log(i + ' and ' + j);
+// }
+
+// for (let i = 1; i < 4; i++) {
+//	for(let k = 1; k < 4; k++) {
+//		console.log(i + ', ' + k);
+//	}
+//	console.log("\n");
+// }
+
+
+/* For...in Loop */
+
+// for (variable in object)
+//	statement;
+
+// const obj = {a:1, b:2, c:3, d:4};
+
+// for (let o in obj){
+//	console.log(o + ' : ' + obj[o])
+// }
+
+/*
+	variable o =
+	console.log() =
+*/
+
+
+
 
 
 
