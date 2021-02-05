@@ -109,6 +109,7 @@ switch(expression){
 }
 */
 
+/*
 let ans = 3;
 
 switch (ans) {
@@ -128,3 +129,45 @@ switch (ans) {
 		console.log("Sorry, you chose wrong answer...!");
 		break;
 } 
+*/
+
+
+/*
+	Loops
+	
+	JavaScript has 4 Looping statements
+	1) While loop
+	2) do/While loop
+	3) for loop
+	4) for/in loop
+*/
+
+// While Loop
+/*
+while(expression){
+	statement1;
+	statement2;
+	statementN;
+}
+*/
+
+let count = 0;
+
+while (count < 10) {
+	console.log(count); // print count variable value on console
+	count++ // increase count variable value by 1
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
