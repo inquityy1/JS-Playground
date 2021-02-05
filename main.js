@@ -168,13 +168,32 @@ do {
 } while(expression);
 */
 
-let count = 0;
+// let count = 0;
 
-do{
-	console.log("Count Value " + count);
-	count++;
-} while (count < 5);
-	
+// do{
+//	console.log("Count Value " + count);
+//	count++;
+// } while (count < 5);
+
+// For Loop
+
+// for (initialization; expression; increment/decrement)
+//	statement;
+
+
+for (let count = 0; count < 5; count++) {
+	console.log('number: ' + count);
+}
+
+for (let i = 0, j = 5; i < 5; i++, j--) {
+	console.log(i + ' and ' + j);
+}
+
+
+
+
+
+
 
 
 
