@@ -213,10 +213,21 @@ do {
 	console.log() =
 */
 
+// for... of loop
 
 
+// for (variable of object)
+//	statement;
 
 
+let ary = [1, 2, 3, 4, 5];
+
+let str = 'tuition';
+
+for (let value of ary){
+	value += 1;
+	console.log(value);
+}
 
 
 
