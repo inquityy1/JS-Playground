@@ -229,7 +229,7 @@ do {
 //	console.log(value);
 // }
 
-
+//   EXPRESSION
 
 // let y;
 // j = y = 4 * 5;
@@ -242,15 +242,55 @@ do {
 // % - when u working with that u want to know how much is the rest
 // 7%3=1
 
-let x = 10, str = '10';
+//    STRICT AND ABSTRACT EQUALITY
 
-console.log(x == str);
+// let x = 10, str = '10';
 
-console.log(x === str);
+// console.log(x == str);
 
-console.log(x === Number(str));
+// console.log(x === str);
 
-console.log(x != str)
+// console.log(x === Number(str));
+
+// console.log(x != str)
+
+
+
+
+// Destructing Assignment Operator
+
+// const obj = { a:1, b:2, c:3, e:5};
+
+// ({a, b, c, d, e} = obj);
+
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+
+// console.log(d);
+
+ const arry = [1, 2, 3, 4, 5, 6];
+
+ let [a, b, c, ...rest] = arry;
+
+ console.log(a);
+ console.log(b);
+ console.log(c);
+ 
+ console.log(rest);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
