@@ -151,12 +151,34 @@ while(expression){
 }
 */
 
+// let count = 0;
+
+// while (count < 10) {
+//	console.log(count); // print count variable value on console
+//	count++ // increase count variable value by 1
+// }
+
+// Do/While Loop
+
+/*
+do {
+	statement1;
+	statement2;
+	statementN;
+} while(expression);
+*/
+
 let count = 0;
 
-while (count < 10) {
-	console.log(count); // print count variable value on console
-	count++ // increase count variable value by 1
-}
+do{
+	console.log("Count Value " + count);
+	count++;
+} while (count < 5);
+	
+
+
+
+
 
 
 
