@@ -220,14 +220,30 @@ do {
 //	statement;
 
 
-let ary = [1, 2, 3, 4, 5];
+// let ary = [1, 2, 3, 4, 5];
 
-let str = 'tuition';
+// let str = 'tuition';
 
-for (let value of ary){
-	value += 1;
-	console.log(value);
-}
+// for (let value of ary){
+//	value += 1;
+//	console.log(value);
+// }
+
+
+
+let y;
+j = y = 4 * 5;
+j = y = 20;
+j = 20;
+
+console.log(j);
+console.log(y);
+
+
+
+
+
+
 
 
 
