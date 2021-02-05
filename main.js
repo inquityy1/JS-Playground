@@ -231,25 +231,26 @@ do {
 
 
 
-let y;
-j = y = 4 * 5;
-j = y = 20;
-j = 20;
+// let y;
+// j = y = 4 * 5;
+//  j = y = 20;
+// j = 20;
 
-console.log(j);
-console.log(y);
+// console.log(j);
+// console.log(y);
 
+// % - when u working with that u want to know how much is the rest
+// 7%3=1
 
+let x = 10, str = '10';
 
+console.log(x == str);
 
+console.log(x === str);
 
+console.log(x === Number(str));
 
-
-
-
-
-
-
+console.log(x != str)
 
 
 
