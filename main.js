@@ -386,10 +386,10 @@ do {
 // break;
 
 
-for (let i = 1; i <= 5; i++) {
-	if( i == 3) break;
-	console.log(i);
-}
+// for (let i = 1; i <= 5; i++) {
+// 	if( i == 3) break;
+// 	console.log(i);
+// }
 
 // break labelname;
 
@@ -397,16 +397,40 @@ for (let i = 1; i <= 5; i++) {
 
 // identifier : statement;
 
-let a = 1;
+// let a = 1;
 
-label : while(a == 1){
-	console.log(a);
-	break label;
+// label : while(a == 1){
+//	console.log(a);
+//	break label;
+// }
+
+
+/* continue statement */
+
+// continue;
+
+// continue labelname;
+
+let x = 0;
+
+while (x < 10){
+	
+	x++;
+	
+	if (x == 5) {
+		continue;
+	}
+	
+	console.log(x)
 }
 
+/* return statement */
 
+function add(x) {
+	return x + x;
+}
 
-
+console.log(add(3));
 
 
 
