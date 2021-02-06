@@ -271,15 +271,29 @@ do {
 
 // console.log(d);
 
- const arry = [1, 2, 3, 4, 5, 6];
+// const arry = [1, 2, 3, 4, 5, 6];
 
- let [a, b, c, ...rest] = arry;
+// let [a, b, c, ...rest] = arry;
 
- console.log(a);
- console.log(b);
- console.log(c);
- 
- console.log(rest);
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+// console.log(rest);
+
+
+let x;
+
+// x = 5 + 3 * 2;
+
+x = 20 /4 + 2 * (7 + 4 - 2);
+	// x = 20 / 4 + 2 * (9);
+	// x = 5+ 2 * (9);
+	// x = 5 + 18;
+	// x = 23;
+
+console.log(x);
+
 
 
 
