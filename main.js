@@ -282,20 +282,48 @@ do {
 // console.log(rest);
 
 
-let x;
+// let x;
 
 // x = 5 + 3 * 2;
 
-x = 20 /4 + 2 * (7 + 4 - 2);
+// x = 20 /4 + 2 * (7 + 4 - 2);
 	// x = 20 / 4 + 2 * (9);
 	// x = 5+ 2 * (9);
 	// x = 5 + 18;
 	// x = 23;
 
-console.log(x);
+// console.log(x);
 
 
+/*  Member acces(.) */
 
+// object.property;
+
+const obj = { id: '1', name: 'daily'};
+
+console.log(obj.name);
+
+console.log(obj['name']);
+
+
+/* in Operator */
+
+const car = { cname: 'BMW', model: 'i8', year: 2015 };
+
+console.log('model' in car);
+
+
+/* Operator new */
+
+class Model {
+	constructor() {
+		
+	}
+}
+
+const c1 = new Model();
+
+const c2 = new Model();
 
 
 
