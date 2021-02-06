@@ -328,32 +328,32 @@ do {
 
 /* instanceof Operator */
 
-const d = new Date();
+// const d = new Date();
 
-console.log(d instanceof Date);
+// console.log(d instanceof Date);
 
-const arry = [1, 2, 3];
+// const arry = [1, 2, 3];
 
-console.log(arry instanceof Array);
+// console.log(arry instanceof Array);
 
-console.log(arry instanceof Date);
+// console.log(arry instanceof Date);
 
-const obj = { x:1, y:2, z:3};
+// const obj = { x:1, y:2, z:3};
 
-console.log('x' in obj);
+// console.log('x' in obj);
 
 
-delete obj.x;
+// delete obj.x;
 
-console.log('x' in obj);
+// console.log('x' in obj);
 
-const arry2 = [1, 2, 3, 4];
+// const arry2 = [1, 2, 3, 4];
 
-console.log(arry2[3]);
+// console.log(arry2[3]);
 
-delete arry[3];
+// delete arry[3];
 
-console.log(arry[3]);
+// console.log(arry[3]);
 
 
 /* conditional operator (?:) */
@@ -361,21 +361,56 @@ console.log(arry[3]);
 // 1operand ? 2operand : 3operand;
 
 
-let print = "hey everyone";
+// let print = "hey everyone";
 
-if (print) {
-	console.log(print);
-} else {
-	print = "welcome";
-	console.log(print);
-}
+// if (print) {
+//	console.log(print);
+// } else {
+//	print = "welcome";
+//	console.log(print);
+// }
 
 
 // Usinng Conditional Operator
 
-print = print ? print : "welcome";
+// print = print ? print : "welcome";
 
-console.log(print);
+// console.log(print);
+
+
+/* Jump Statement */
+
+
+/* Break */
+
+// break;
+
+
+for (let i = 1; i <= 5; i++) {
+	if( i == 3) break;
+	console.log(i);
+}
+
+// break labelname;
+
+/* Labeled Statement */
+
+// identifier : statement;
+
+let a = 1;
+
+label : while(a == 1){
+	console.log(a);
+	break label;
+}
+
+
+
+
+
+
+
+
 
 
 
