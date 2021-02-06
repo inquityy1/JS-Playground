@@ -299,37 +299,83 @@ do {
 
 // object.property;
 
-const obj = { id: '1', name: 'daily'};
+// const obj = { id: '1', name: 'daily'};
 
-console.log(obj.name);
+// console.log(obj.name);
 
-console.log(obj['name']);
+// console.log(obj['name']);
 
 
 /* in Operator */
 
-const car = { cname: 'BMW', model: 'i8', year: 2015 };
+// const car = { cname: 'BMW', model: 'i8', year: 2015 };
 
-console.log('model' in car);
+// console.log('model' in car);
 
 
 /* Operator new */
 
-class Model {
-	constructor() {
+// class Model {
+//	constructor() {
 		
-	}
+//	}
+// }
+
+// const c1 = new Model();
+
+// const c2 = new Model();
+
+
+/* instanceof Operator */
+
+const d = new Date();
+
+console.log(d instanceof Date);
+
+const arry = [1, 2, 3];
+
+console.log(arry instanceof Array);
+
+console.log(arry instanceof Date);
+
+const obj = { x:1, y:2, z:3};
+
+console.log('x' in obj);
+
+
+delete obj.x;
+
+console.log('x' in obj);
+
+const arry2 = [1, 2, 3, 4];
+
+console.log(arry2[3]);
+
+delete arry[3];
+
+console.log(arry[3]);
+
+
+/* conditional operator (?:) */
+
+// 1operand ? 2operand : 3operand;
+
+
+let print = "hey everyone";
+
+if (print) {
+	console.log(print);
+} else {
+	print = "welcome";
+	console.log(print);
 }
 
-const c1 = new Model();
 
-const c2 = new Model();
+// Usinng Conditional Operator
 
+print = print ? print : "welcome";
 
-
-
-
-
+console.log(print);
 
 
 
