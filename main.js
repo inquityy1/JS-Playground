@@ -411,28 +411,40 @@ do {
 
 // continue labelname;
 
-let x = 0;
+// let x = 0;
 
-while (x < 10){
+// while (x < 10){
 	
-	x++;
+//	x++;
 	
-	if (x == 5) {
-		continue;
-	}
+//	if (x == 5) {
+//		continue;
+//	}
 	
-	console.log(x)
-}
+//	console.log(x)
+// }
 
 /* return statement */
 
-function add(x) {
-	return x + x;
+// function add(x) {
+//	return x + x;
+// }
+
+// console.log(add(3));
+
+
+// function funname([arg, ..., argn]){
+//	statements;
+// }
+
+function Magic() {
+	return "hello function";
 }
 
-console.log(add(3));
 
+const obj = { f:Magic};
 
+console.log(obj.f());
 
 
 
